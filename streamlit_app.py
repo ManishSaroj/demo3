@@ -8,7 +8,16 @@ import io
 from time import sleep
 
 # Initialize Firebase configuration
-firebaseConfig = st.secrets["store_key"]
+firebaseConfig = {
+    'apiKey': "AIzaSyAXg5zjnmuZixkpkTLEjODenzth_pWOHH8",
+    'authDomain': "textin-s0907.firebaseapp.com",
+    'projectId': "textin-s0907",
+    'databaseURL': https://console.firebase.google.com/project/textin-s0907/database/textin-s0907-default-rtdb/data/~2F",
+    'storageBucket': "textin-s0907.appspot.com",
+    'messagingSenderId': "756706973704",
+    'appId': "1:756706973704:web:9654e075f388353cf319bd",
+    'measurementId': "G-WHVE18X4YB"
+}
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 
